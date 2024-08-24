@@ -37,3 +37,35 @@ input[type="text"]:focus {
   border-radius: 13px 13px;
   transition: 0.8s;
 }
+
+.edit {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-input {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-text {
+  flex-grow: 1;
+  margin: 0 10px; /* Add space around the text */
+}
+
+.toggle-completed,
+.edit,
+.delete {
+  cursor: pointer;
+}
+
+.edit, .delete {
+  margin: 0 5px;
+}
